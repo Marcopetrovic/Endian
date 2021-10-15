@@ -1,8 +1,9 @@
 # Endian
 /Marco Penetrejsn
 
-Valde att skriva en method som genererar 8 Big endians
-Öppnar generatorn i min main och sedan läser av filen med en loop för att loopa igenom värdena som jag genererat
-delar in little endians och sedan mitten bittarna och skickar dem var för sig till sin rätta plats.
+Valde att skriva en method som genererar 8 Big endians mellan talen 1 och 65535 som är det näst minsta och näst högsta värdet en 2 byte int kan vara.
+Inleder Main med att kalla på min generator sedan läser jag av generatorn och skapar LittleEndian och MiddleBytes och förbereder att skriva till dessa.
+Använder 2 chars för att kasta om bitarna till en littleEndian och skriver sedan ut littleEndian skriver ut middlebytes som en littleendian fast där jag har plockat ut dem 8 mittersta bitarna.
+
 
 Valde att själv skifta bitar med pekare än att använda inbyggda verktyg som swap då det kändes att för denna uppgiften var det mer lätt kodat att göra sin egen satta formel.
