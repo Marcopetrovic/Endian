@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/KYH-prog/embedded/LittleBigEndian/main.cpp
+time.h
+-
+iostream
+-
+bitset
+-
+string
+-
+fstream
+-
+
