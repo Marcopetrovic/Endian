@@ -7,4 +7,4 @@ Använder 2 chars för att kasta om bitarna till en littleEndian och skriver sed
 Skriver ut middlebytes som en littleendian fast där jag har plockat ut dem 8 mittersta bitarna.
 
 
-Valde att själv skifta bitar med pekare än att använda inbyggda verktyg som swap då det kändes att för denna uppgiften var det mer lätt kodat att göra sin egen satta formel.
+Valde att själv skifta bitar än att använda inbyggda verktyg som swap då det kändes att för denna uppgiften var det mer lätt kodat att göra sin egen satta formel.
