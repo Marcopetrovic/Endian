@@ -30,7 +30,7 @@ int main() {
 
     //Läser från filen
     ifstream generatedInputs("generated_input.txt");
-    //Skriver till filerna
+    //skapar och skriver till filerna
     ofstream littleEndians("little_endian.txt");
     ofstream middleBytes("middle_byte.txt");
 
